@@ -1,0 +1,108 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+
+  }
+  .bgimg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/quizCaro/images/dancePlague.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+  }
+  
+  .caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+  }
+
+  .choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: #000;
+  }
+
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+  }
+  
+  button {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel', serif;
+  }
+
+  h1 {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 60px;
+  }
+
+  h2 {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    padding: 10px 0px;
+  }
+ 
+  a {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+
+  p {
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    padding: 0;
+  }
+
+ input {
+    height: 20px;
+    width: 20px;
+  }
+
+  label{
+    font-family: 'Courgette', cursive;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+
+  input,
+  label{
+    padding: 20px 0px;
+    margin: 10px;
+  }

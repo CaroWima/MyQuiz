@@ -1,0 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font: normal 18px sans-serif;
+  color: #555;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */
